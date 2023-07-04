@@ -1,0 +1,138 @@
+.container
+{
+     background-color: darkslategrey;
+     z-index: 1;
+     display: flex; 
+     align-items: center;
+     position: sticky;
+     width:max-content;
+     top: 0px;
+}
+#img{
+    height: 71px;
+    width: 84px;
+
+}
+
+.list{
+    display: flex;
+    width: 100%;
+     /* justify-content: space-between;  */
+     list-style: none;
+     
+    }
+    .list li{
+
+        margin-left: 100px;
+        font-weight: bold;
+    }
+    .list li a{
+    text-decoration: none;
+    color: rgb(9, 10, 10);
+}
+#span{
+    font-size: 2em;
+    color: rgb(246, 250, 249);
+margin: 0;
+}
+.quote
+{
+    font-family: 'Lobster', cursive;
+    margin-left: 120px;
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color:#f71111;
+    text-shadow: 2px 2px darkslategrey;
+
+}
+.image{
+     width:100%;
+    position: relative;
+    bottom: 300px;
+} 
+body{
+    background-image:url(img/coco-cola.jpg);
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    
+}
+#companyimg {
+    width: 100%;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: cursive;
+    color: rgb(201, 11, 179);
+    margin-left: 20px;
+    text-indent: 40px;
+}
+.pharmacy{
+    display:flex;
+}
+.pharmacy p{
+    width: 50%;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: cursive;
+    color: rgb(27, 26, 27);
+    margin-left: 20px;
+    text-indent: 40px;
+    margin-top: 50px;
+}
+.pharmacy span{
+    font-size: 40px;
+}
+.girl {
+    margin-top: 30px;
+    display: flex;
+}
+.girl img{
+    width: 50%;
+    height: 400px;
+}
+.girl p{
+    
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: cursive;
+    color: rgb(17, 1, 17);
+    margin-left: 20px;
+    text-indent: 40px;
+    margin-top: 90px;
+
+}
+.girl span{
+    font-size: 40px;
+}
+iframe{
+    /* position: relative;
+    left:50%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* width: 50%; */
+    margin-top: 40px;
+    border-top: 5px solid black;
+    border-left:5px solid black ;
+}
+/* .navigation{
+    display: flex;
+    background-color: rgb(142, 177, 207);
+    justify-content: space-evenly;
+}
+.navigation{
+    width: 50%;
+}
+
+
+
+.navigation img{
+    height: 50px;
+    width: 70px;
+    border-radius: 30px;
+    
+}
+.navigation p{
+    font-weight: bold;
+} */

@@ -1,0 +1,79 @@
+.container
+{
+    background-color: darkslategrey;
+    /* height: px; */
+     display: flex; 
+     align-items: center;
+position: sticky;
+top: 0px;
+width:max-content;
+}
+#img{
+    height: 71px;
+    width: 84px;
+
+}
+
+.list{
+    display: flex;
+    width: 100%;
+     /* justify-content: space-between;  */
+     list-style: none;
+     
+    }
+    .list li{
+        font-weight: bold;
+
+        margin-left: 108px;
+    }
+    .list li a{
+    text-decoration: none;
+    color: rgb(9, 10, 10);
+}
+#span{
+    font-size: 2em;
+    color: rgb(246, 250, 249);
+margin: 0;
+}
+.quote
+{
+    font-family: 'Lobster', cursive;
+    margin-left: 110px;
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color:#f71111;
+    text-shadow: 2px 2px  darkslategrey;
+
+}
+body{
+    background-image: url(/img/sorry.jpg);
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+.ss{
+color: rgb(14, 13, 13);
+font-size: 20px;
+line-height: 27px;
+font-weight: bold;
+
+position: absolute;
+bottom: 180px;
+ right: 10px; 
+}
+.suhas{
+color: black;
+position: absolute;
+bottom: 48px;
+right: 150px;
+
+}
+#sk{
+color: green;
+position: absolute;
+bottom: 30px;
+right: 105px;
+}

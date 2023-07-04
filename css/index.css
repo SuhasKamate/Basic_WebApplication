@@ -1,0 +1,123 @@
+body{
+    /* background-color:black; */
+    background-image: url(/img/COCOCOLA.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-attachment:; */
+   
+}
+.container
+{
+    width:max-content;
+    background-color: darkslategrey;
+     display: flex; 
+     align-items: center;
+position: sticky;
+z-index: 1;
+top: 0px;
+}
+
+
+.nav img{
+    height: 71px;
+    width: 84px;
+}
+.list{
+    display: flex;
+    width: 100%;
+     /* justify-content: space-between;  */
+     list-style: none;
+     
+    }
+    .list li{
+        font-weight: bold;
+        margin-left: 100px;
+    }
+    .list li a{
+    text-decoration: none;
+    color:black;
+}
+#span{
+    font-size: 2em;
+    color: white;
+margin: 0;
+}
+.quote
+{
+    font-family: 'Lobster', cursive;
+    margin-left: 135px;
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color:#f01111;
+    text-shadow: 2px 2px  darkslategrey;
+
+}
+.login {
+    display: inline-block;
+}
+.login img{
+    color: black;
+    height: 37px;
+    width: 37px;
+    border-radius: 150%;
+    margin-top: 15%;
+    margin-left: 80px;
+    
+}
+
+.log{
+    margin-top: 250px;
+    margin-left: 40%;
+}
+ 
+.images 
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
+   
+}
+.images img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+  padding: 0px 10px;
+    margin-bottom: 60px;
+}
+#train{
+    height: 300px;
+    width: 700px;
+}
+
+ 
+ #i1:hover{
+transform:scale(1.2);
+    transition:all 2s;
+  }  
+   #i2:hover{
+transform:scale(1.1);
+    transition: all 2s;
+  }  
+   #i3:hover{
+transform:scale(1.1);
+    transition: all 2s;
+  }  
+   #i4:hover{
+transform:scale(1.1);
+    transition: all 2s;
+  }  
+   #i5:hover{
+transform:scale(1.1);
+    transition: all 2s;
+  } 
+   #i6:hover{
+transform:scale(1.1);
+    transition: all 2s;
+  }   
+
+

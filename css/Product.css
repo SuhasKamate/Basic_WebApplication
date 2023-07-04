@@ -1,0 +1,138 @@
+.container
+{
+    background-color: darkslategrey;
+    /* height: px; */
+     display: flex; 
+     align-items: center;
+position: sticky;
+z-index: 1;
+top: 0px;
+width:max-content;
+}
+#img{
+    height: 71px;
+    width: 84px;
+
+}
+
+.list{
+    display: flex;
+    width: 100%;
+     /* justify-content: space-between;  */
+     list-style: none;
+     
+    }
+    .list li{
+        font-weight: bold;
+        margin-left: 100px;
+    }
+    .list li a{
+    text-decoration: none;
+    color: rgb(9, 10, 10);
+}
+#span{
+    font-size: 2em;
+    color: rgb(246, 250, 249);
+margin: 0;
+}
+.quote
+{
+    font-family: 'Lobster', cursive;
+    margin-left: 120px;
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color:#f71111;
+    text-shadow: 2px 2px darkslategrey;
+
+}
+.me{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.me img{
+    height: 350px;
+}
+.me .first:hover
+{
+    transform:scale(1.2);
+    transition:all 2s;
+}
+.me .second:hover
+{
+    transform:scale(1.2);
+    transition:all 2s;  
+}
+.me .third:hover
+{
+    transform:scale(1.2);
+    transition:all 2s;  
+}
+button{
+    border-radius:10px;
+    background-color: red;
+    position: relative;
+    left: 90px;
+    top: 20px;
+   
+
+}
+button a{
+    text-decoration: none;
+    color: black;
+   
+}
+.name{
+    margin: auto;
+    font-size: 1.3em;
+    font-family:'Franklin Gothic Medium';
+    font-weight: bold;
+    margin-left:25% ;
+}
+.name#n1{
+    margin-left: 0px;
+}
+.name span{
+    font-size: 0.7em;
+
+}
+.para {
+   
+     background-color: rgb(187, 137, 174); 
+  
+     display: flex;
+     
+     justify-content: space-evenly;
+     margin-top: 50px;
+}
+#flvr{
+    margin-top:10px;
+    /* border: 2px solid black; */
+    border-bottom: 2px solid rgb(12, 11, 11);
+    border-left:2px solid rgb(236, 234, 234) ;
+    
+}
+.para #flvr:hover
+{
+    transform:scale(1.2);
+    transition: all 1.5s;
+}
+#size:hover{
+    transform:scale(1.2);
+    transition: all 1s;
+}
+select{
+ border-radius: 20px;
+ color: aliceblue;
+    background-color: rgba(53, 50, 50, 0.897);
+}
+#size
+{
+    border-left: 2px groove rgb(252, 247, 247);
+    border-bottom:  2px groove rgb(19, 18, 18);
+    margin-top: 10px;
+    
+}

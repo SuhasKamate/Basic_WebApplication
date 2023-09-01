@@ -1,5 +1,10 @@
+body
+{
+    margin: 0;
+}
 .container
 {
+    margin: 0;
      background-color: darkslategrey;
      z-index: 1;
      display: flex; 

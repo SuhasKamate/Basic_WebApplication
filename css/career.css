@@ -1,3 +1,7 @@
+body
+{
+    margin: 0;
+}
 .container
 {
     background-color: darkslategrey;
